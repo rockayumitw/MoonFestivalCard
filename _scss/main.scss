@@ -1,0 +1,21 @@
+@import "./_vendor/normalize";
+@import "./_vendor/_animate";
+@import "./_variable";
+@import "./_mixin";
+@import "./_layout/_sky-area-group";
+@import "./_layout/_sea-area-group";
+@import "./_layout/_middle-drag-box";
+@import "./_layout/_animation-layer";
+
+
+*{
+    outline: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    // background:url($default_Background_color);
+    font-family:'微軟正黑體';
+    background:#222222;
+}
