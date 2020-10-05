@@ -11,13 +11,13 @@ $experimental-support-for-khtml: false;
 //字體
 $font-Style:"Microsoft JhengHei";
 
-$tree_01: $url + "/img/tree01.png" + $random;
-$tree_02: $url + "/img/tree02.png"+ $random;
-$sun_bg: $url + "/img/sunbg.jpg"+ $random;
-$night_bg: $url + "/img/nightbg.jpg"+ $random;
-$decoration: $url + "/img/ss.png"+ $random;
-$home_bg:$url + "/img/main_bg.png"+ $random;
-$home_bg_m:$url + "/img/main_bg_m.png"+ $random;
+$tree_01: "/img/tree01.png";
+$tree_02: "/img/tree02.png";
+$sun_bg: "/img/sunbg.jpg";
+$night_bg: "/img/nightbg.jpg";
+$decoration: "/img/ss.png";
+$home_bg: "/img/main_bg.png";
+$home_bg_m: "/img/main_bg_m.png";
 
 $z-index: (
   loading       :7,
