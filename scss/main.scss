@@ -1,11 +1,11 @@
-@import "./_vendor/normalize";
-@import "./_vendor/_animate";
+@import "./vendor/normalize";
+@import "./vendor/_animate";
 @import "./_variable";
 @import "./_mixin";
-@import "./_layout/_sky-area-group";
-@import "./_layout/_sea-area-group";
-@import "./_layout/_middle-drag-box";
-@import "./_layout/_animation-layer";
+@import "./layout/_sky-area-group";
+@import "./layout/_sea-area-group";
+@import "./layout/_middle-drag-box";
+@import "./layout/_animation-layer";
 
 
 *{
