@@ -4223,7 +4223,7 @@ template {
 }
 
 .sky-area-group .sun-sky-bg {
-  background-image: url("/img/sunbg.jpg");
+  background-image: url("./img/sunbg.jpg");
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -4252,7 +4252,7 @@ template {
 }
 
 .sky-area-group .night-sky-bg {
-  background-image: url("/img/nightbg.jpg");
+  background-image: url("./img/nightbg.jpg");
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -4313,8 +4313,8 @@ template {
   animation-duration: 4s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
-  -webkit-animation-delay: 0.01s;
-  animation-delay: 0.01s;
+  -webkit-animation-delay: 0.03s;
+  animation-delay: 0.03s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
@@ -4368,8 +4368,8 @@ template {
   animation-duration: 4s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
-  -webkit-animation-delay: 0.06s;
-  animation-delay: 0.06s;
+  -webkit-animation-delay: 0.04s;
+  animation-delay: 0.04s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
@@ -4470,8 +4470,8 @@ template {
   animation-duration: 4s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
-  -webkit-animation-delay: 0.04s;
-  animation-delay: 0.04s;
+  -webkit-animation-delay: 0.12s;
+  animation-delay: 0.12s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
@@ -4659,7 +4659,7 @@ template {
   z-index: 3;
   position: absolute;
   bottom: -5px;
-  background-image: url("/img/main_bg.png");
+  background-image: url("./img/main_bg.png");
   width: 100%;
   height: 450px;
   background-size: cover;
@@ -4671,7 +4671,7 @@ template {
   .sea-area-group .wave-area .house {
     position: absolute;
     bottom: 0px;
-    background-image: url("/img/main_bg_m.png");
+    background-image: url("./img/main_bg_m.png");
     width: 100%;
     height: 200px;
     background-size: false;
@@ -4722,8 +4722,8 @@ template {
   animation-duration: 4s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
-  -webkit-animation-delay: 0.02s;
-  animation-delay: 0.02s;
+  -webkit-animation-delay: 0.03s;
+  animation-delay: 0.03s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
@@ -4816,8 +4816,8 @@ template {
   animation-duration: 4s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
-  -webkit-animation-delay: 0.06s;
-  animation-delay: 0.06s;
+  -webkit-animation-delay: 0.12s;
+  animation-delay: 0.12s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
@@ -5828,7 +5828,7 @@ template {
   transform: rotate(180deg);
   opacity: 0;
   filter: alpha(opacity=0);
-  background-image: url("/img/ss.png");
+  background-image: url("./img/ss.png");
   width: 20px;
   height: 40px;
   background-size: false;
@@ -5855,7 +5855,7 @@ template {
 
 .middle-drag-box .btn-here.__light .text:after {
   content: '';
-  background-image: url("/img/ss.png");
+  background-image: url("./img/ss.png");
   width: 20px;
   height: 40px;
   background-size: false;
@@ -6247,7 +6247,7 @@ template {
 
 ._animation-layer .tree-group .tree-01 .tree-left {
   display: block;
-  background-image: url("/img/tree01.png");
+  background-image: url("./img/tree01.png");
   width: 30vw;
   height: 100%;
   background-size: cover;
@@ -6279,7 +6279,7 @@ template {
   -moz-transform: scale(1.02);
   -o-transition: scale(1.02);
   transform: scale(1.02);
-  background-image: url("/img/tree02.png");
+  background-image: url("./img/tree02.png");
   width: 30vw;
   height: 100%;
   background-size: cover;
