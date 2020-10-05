@@ -1,0 +1,49 @@
+//動畫前綴
+$experimental-support-for-webkit : true;
+$experimental-support-for-mozilla: true;
+$experimental-support-for-opera: true;
+$experimental-support-for-microsoft: true;
+$experimental-support-for-khtml: false;
+
+//預設背景圖
+// $default_Background:'../_img/background.webp'+$random;
+
+$url:"https://github.com/rockayumitw/19_MoonFestivalCard/blob/master";
+$random: "?raw=true";
+
+//字體
+$font-Style:"Microsoft JhengHei";
+
+$tree_01: $url + "/_img/tree01.png" + $random;
+$tree_02: $url + "/_img/tree02.png"+ $random;
+$sun_bg: $url + "/_img/sunbg.jpg"+ $random;
+$night_bg: $url + "/_img/nightbg.jpg"+ $random;
+$decoration: $url + "/_img/ss.png"+ $random;
+$home_bg:$url + "/_img/main_bg.png"+ $random;
+$home_bg_m:$url + "/_img/main_bg_m.png"+ $random;
+
+$z-index: (
+  loading       :7,
+  header        : 6,
+  footer         : 6,
+  btn_sky_light : 6,
+  tree          : 5,
+  moon          : 4,
+  wave          : 3,
+  house         : 3 ,
+  sun           : 3,
+  cloud        : 1,
+  line         : 1,
+  btn_here_light :1,
+  sun_sky_bg   : 1,
+  star         : 0,
+  night_sky_bg   : 0,
+);
+
+$breakpoints:(
+    xxs: 320px,//ios se5
+    xs : 575.98px,
+    sm : 767.98px,
+    md : 991.98px,
+    lg : 1199.98px
+);

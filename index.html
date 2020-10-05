@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="_scss/_vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="_scss/_vendor/slick.css">
+    <link rel="stylesheet" href="_scss/_vendor/slick-theme.css">
+    <script src="_js/_vendor/jquery-3.4.1.min.js"></script>
+    <script src="_js/_vendor/bootstrap.js"></script>
+    <script src="_js/_vendor/slick.min.js"></script>
+    <script src="_js/_vendor/gsap.js"></script>
+    <script src="_js/_vendor/jquery-ui-1.12.0.js"></script>
+    <link rel="stylesheet" href="/_scss/main.css">
+    <title>MoonFestivalCard</title> 
+</head>
+
+<body>
+    <div class="wrap">
+                <div class="_animation-layer">
+
+                    <div class="loading">
+                        <div class="left-box"></div>
+                        <div class="right-box"></div>
+                    </div>
+
+                    <div class="header">
+                        <div class="date">
+                            <div>08.15</div>
+                            <div>(農)中秋佳節</div>
+                            <img width="15" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/loading.gif?raw=true" alt="">
+                        </div>
+                        <div class="text text-right">
+                            <div>HAPPY</div>
+                            <div>MID-AUTUMN</div>
+                            <div>FESTIVAL</div>
+                        </div>
+                    </div>
+                                  
+                    <!---天空區塊--->
+                    <div class="sky-area-group">
+                        <!--白天--->
+                        <div class="sun-sky-bg">
+                            <!--海鷗-->
+                        </div>
+                        <!--夜晚--->
+                        <div class="night-sky-bg">
+                            <!--星空--->
+                            <div class="star-group">
+                                <img class="star star-01" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/star.png?raw=true"/>
+                                <img class="star star-02" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/star.png?raw=true"/>
+                                <img class="star star-03" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/star.png?raw=true"/>
+                            </div>
+                        </div>
+
+                        <!--雲朵-->
+                        <div class="cloud-group">
+                            <img class="cloud c1" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/cloud01.png?raw=true" alt="">
+                            <img class="cloud c2" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/cloud02.png?raw=true" alt="">
+                            <img class="cloud c3" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/cloud03.png?raw=true" alt="">
+                            <img class="cloud c4" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/cloud04.png?raw=true" alt="">
+                        </div>
+
+                        <!---主要控制按鈕區塊--->
+                        <div class="middle-drag-box">
+                            <div class="draggon-ui">
+                                <img class="sun" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/sun.png?raw=true" alt="">
+                            </div>
+                            <div class="moon-box mx-auto hide">
+                                <div class="moon ">
+                                    <img class="moon-bg w-100" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/moon_bg.png?raw=true" alt="">
+                                    <img class="moon-front w-100" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/moon_front.png?raw=true" alt="">
+                                    <div class="rabbit-group">
+                                        <div class="rabbit __rabbit-right">
+                                            <img class="rabbit-body" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/rabbit-body.png?raw=true" alt="">
+                                            <img class="rabbit-hand" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/rabbit-hand.png?raw=true" alt="">
+                                            <img class="rabbit-wood" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/rabbit-wood.png?raw=true" alt="">
+                                        </div>
+                                        <div class="rabbit __rabbit-left">
+                                            <img class="rabbit-body" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/rabbit-body.png?raw=true" alt="">
+                                            <img class="rabbit-hand" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/rabbit-hand.png?raw=true" alt="">
+                                            <img class="rabbit-wood" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/rabbit-wood.png?raw=true" alt="">
+                                        </div>
+                                        <img class="rabbit-box" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/rabbit-box.png?raw=true" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-run text-center">
+                                    <!-- <div class="text">
+                                        <img class="w-100" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/text00.png?raw=true" alt="">
+                                    </div> -->
+                                    <div class="text">
+                                        <img class="w-100" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/text01.png?raw=true" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <img class="w-100" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/text02.png?raw=true" alt="">
+                                    </div>
+                                </div>
+                                <!---夜晚--->
+                                <div class="btn-here __night">
+                                    <img class="btn-retry" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/retry.png?raw=true" alt="">
+                                    <div class="text">RETRY</div>
+                                </div>
+                            </div>
+                            <!---白天線--->
+                            <div class="dot-area">
+                                <div class="dot"></div>
+                                <img class="line" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/line.png?raw=true" alt="">
+                            </div>
+                            <!---白天--->
+                            <div class="btn-here __light">
+                                <div class="outer-circle"></div>
+                                <div class="inner-circle"></div>
+                                <div class="text">
+                                    DRAG<br/>
+                                    HERE
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <!--海洋區塊--->
+                    <div class="sea-area-group">
+                        <!---天燈--->
+                        <div class="sky-light-box hide">
+                            <img class="btn-sky-light" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/button.png?raw=true">
+                            <div class="sky-area">
+                                <img class="sky-light" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/sky-light.png?raw=true" alt="">
+                            </div>
+                        </div>
+
+                        <!---海洋--->
+                        <div class="wave-area">
+                            <div class="house"></div>
+                            <div class="wave-yellow-group">
+                                <img class="c1 image-fluid" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/wave_y01.png?raw=true" alt="">
+                                <img class="c2 image-fluid" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/wave_y02.png?raw=true" alt="">
+                                <img class="c3 image-fluid" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/wave_y03.png?raw=true" alt="">
+                            </div>
+                            <div class="wave-blue-group">
+                                <img class="c1 image-fluid" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/wave01.png?raw=true" alt="">
+                                <img class="c2 image-fluid" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/wave02.png?raw=true" alt="">
+                                <img class="c3 image-fluid" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/wave03.png?raw=true" alt="">
+                                <img class="c4 image-fluid" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/wave04.png?raw=true" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!---tree--->
+                    <div class="tree-group">
+                        <div class="tree-01">
+                            <span class=" tree-left">
+                            </span>
+                        </div>
+                        <div class="tree-02">
+                            <span class="tree-right">
+                            </span>
+                        </div>
+                    </div>
+
+                    <!---logo--->
+                    <div class="footer">
+                        <!-- <img class="logo" src="https://github.com/rockayumitw/19_MoonFestivalCard/blob/master/_img/logo.png?raw=true" alt=""> -->
+                    </div>
+                </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="ani_svg">
+        <defs>
+            <filter id="heat">
+                <feTurbulence type="fractalNoise" baseFrequency="0.005" numOctaves="3" result="warp">
+                </feTurbulence>
+                <feDisplacementMap xChannelSelector="R" yChannelSelector="B" scale="14.8299" in="SourceGraphic" in2="warp">
+                    <animate attributeName="scale" dur="5s" values="15 ; 30 ; 40 ; 10 ; 15" keyTimes="0 ; 0.25 ; 0.5 ; 0.75 ; 1" repeatCount="indefinite"></animate>
+                </feDisplacementMap>
+            </filter>
+            <filter id="heat2">
+                <feTurbulence type="fractalNoise" baseFrequency="0.005" numOctaves="3" result="warp">
+                </feTurbulence>
+                <feDisplacementMap xChannelSelector="R" yChannelSelector="B" scale="22.8424" in="SourceGraphic" in2="warp">
+                    <animate attributeName="scale" dur="3.5s" values="15 ; 30 ; 60 ; 10 ; 15" keyTimes="0 ; 0.25 ; 0.5 ; 0.75 ; 1" repeatCount="indefinite"></animate>
+                    <animate attributeName="scale" dur="2s" values="0 ; 20 ; 0" keyTimes="0 ; 0.5 ; 1" repeatCount="indefinite"></animate>
+                </feDisplacementMap>
+            </filter>
+            <filter id="heat3">
+                <feTurbulence type="fractalNoise" baseFrequency="0.005" numOctaves="3" result="warp">
+                </feTurbulence>
+                <feDisplacementMap xChannelSelector="R" yChannelSelector="B" scale="22.8424" in="SourceGraphic" in2="warp">
+                    <animate attributeName="scale" dur="3.5s" values="-45 ; 30 ; 120 ; 10 ; -45" keyTimes="0 ; 0.25 ; 0.5 ; 0.75 ; 1" repeatCount="indefinite"></animate>
+                    <animate attributeName="scale" dur="2s" values="0 ; 50 ; 0" keyTimes="0 ; 0.5 ; 1" repeatCount="indefinite"></animate>
+                </feDisplacementMap>
+            </filter>
+            <filter id="parallax">
+                <feDisplacementMap xChannelSelector="R" yChannelSelector="B" scale="19.1495" in="SourceGraphic">
+                    <animate attributeName="scale" dur="2s" values="0 ; 20 ; 0" keyTimes="0 ; 0.5 ; 1" repeatCount="indefinite"></animate>
+                </feDisplacementMap>
+            </filter>
+            <filter id="parallax2">
+                <feDisplacementMap xChannelSelector="R" yChannelSelector="B" scale="0.42527" in="SourceGraphic">
+                    <animate attributeName="scale" dur="2s" values="10 ; 0 ; 10" keyTimes="0 ; 0.5 ; 1" repeatCount="indefinite"></animate>
+                </feDisplacementMap>
+            </filter>
+        </defs>
+    </svg>
+</body>
+
+<script src="_js/animation.js"></script>
+</html>
