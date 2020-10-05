@@ -14,13 +14,13 @@ $random: "?raw=true";
 //字體
 $font-Style:"Microsoft JhengHei";
 
-$tree_01: $url + "/_img/tree01.png" + $random;
-$tree_02: $url + "/_img/tree02.png"+ $random;
-$sun_bg: $url + "/_img/sunbg.jpg"+ $random;
-$night_bg: $url + "/_img/nightbg.jpg"+ $random;
-$decoration: $url + "/_img/ss.png"+ $random;
-$home_bg:$url + "/_img/main_bg.png"+ $random;
-$home_bg_m:$url + "/_img/main_bg_m.png"+ $random;
+$tree_01: "/_img/tree01.png";
+$tree_02: "/_img/tree02.png";
+$sun_bg: "/_img/sunbg.jpg";
+$night_bg: "/_img/nightbg.jpg";
+$decoration: "/_img/ss.png";
+$home_bg:"/_img/main_bg.png";
+$home_bg_m:"/_img/main_bg_m.png";
 
 $z-index: (
   loading       :7,
